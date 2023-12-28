@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ogloszenia",
+  "info": {
+    "singularName": "ogloszenie",
+    "pluralName": "ogloszenia",
+    "displayName": "ogloszenie",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "data": {
+      "type": "date"
+    },
+    "tytul": {
+      "type": "string"
+    },
+    "tlo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tresc": {
+      "type": "richtext"
+    },
+    "opcjonalne": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "kategoria": {
+      "type": "enumeration",
+      "enum": [
+        "wydarzenia",
+        "aktualnosci",
+        "zbiorka"
+      ]
+    },
+    "skrot_tresci": {
+      "type": "text"
+    }
+  }
+}

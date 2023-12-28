@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cytaty",
+  "info": {
+    "singularName": "cytat",
+    "pluralName": "cytaty",
+    "displayName": "Cytat",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tekst": {
+      "type": "text"
+    },
+    "autor": {
+      "type": "string"
+    }
+  }
+}

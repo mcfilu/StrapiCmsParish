@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kazania",
+  "info": {
+    "singularName": "kazanie",
+    "pluralName": "kazania",
+    "displayName": "Kazanie",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "data": {
+      "type": "date"
+    },
+    "tytul": {
+      "type": "string"
+    },
+    "opis": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    },
+    "zdjecie": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
